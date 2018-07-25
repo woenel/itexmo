@@ -23,7 +23,7 @@ use Itexmo;
 
 $res = Itexmo::to('09123456789')->message('Hello World!')->send();
 
-return $res; // 0 means success.
+return $res; // 0 means success. See below for more return codes.
 ```
 
 ## Return codes
