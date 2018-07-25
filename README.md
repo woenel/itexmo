@@ -40,6 +40,6 @@ if($res == '0') {
 * "8" = iTexMo Error. Please try again later.
 * "9" = Invalid Function Parameters.
 * "10" = Recipient's number is blocked due to FLOODING, message was ignored.
-* "11" = Recipient's number is blocked temporarily due to HARD sending (after 3 retries of sending and message still failed to send) and the message was ignored. Try again after an hour.
+* "11" = Recipient's number is blocked temporarily due to HARD sending and the message was ignored. Try again after an hour.
 * "12" = Invalid request. You can't set message priorities on non corporate apicodes.
 * "13" = Invalid or Not Registered Custom Sender ID.
