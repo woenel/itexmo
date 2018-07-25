@@ -15,11 +15,6 @@ class Itexmo {
         $this->client = new Client;
     }
 
-    public function test($asd)
-    {
-        return $asd;
-    }
-
     public function to($to)
     {
         $this->to = $to;
