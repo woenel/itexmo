@@ -17,7 +17,7 @@ $ php artisan vendor:publish --provider="Woenel\Itexmo\ItexmoServiceProvider"
 
 ## Usage
 
-#### Sending a message
+#### Send a Message
 
 Using facade:
 ```
@@ -60,3 +60,12 @@ either way would work.
 * "11" = Recipient's number is blocked temporarily due to hard sending and the message was ignored.
 * "12" = Invalid request. You can't set message priorities on non corporate apicodes.
 * "13" = Invalid or not registered custom sender ID.
+
+## Features
+#### Implemented features
+- [x] Send a Message
+#### Planned features
+- [ ] Check API Service Status and your SMS Server Status
+- [ ] Check ApiCode Info and Status
+- [ ] Show Pending or Outgoing SMS
+- [ ] Delete All Pending or Outgoing SMS
