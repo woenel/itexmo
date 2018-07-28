@@ -1,6 +1,6 @@
 <?php
 
-namespace Woenel\Itexmo;
+namespace Woenel;
 
 use GuzzleHttp\Client;
 
@@ -14,7 +14,7 @@ class Itexmo {
     {
         $this->client = new Client;
     }
-
+    
     public function to($to)
     {
         $this->to = $to;
