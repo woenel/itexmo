@@ -44,5 +44,4 @@ class Itexmo {
 
         return $res->getBody()->getContents();
     }
-    
 }

@@ -15,6 +15,6 @@ class ItexmoServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->bind('Itexmo', 'Woenel\Itexmo\Itexmo');
+        $this->app->bind('Itexmo', 'Woenel\Itexmo');
     }
 }
