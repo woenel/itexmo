@@ -1,5 +1,5 @@
 # iTexMo
-iTexMo API for Laravel.
+[iTexMo](https://itexmo.com) API for Laravel.
 
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
