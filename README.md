@@ -18,6 +18,8 @@ $ php artisan vendor:publish --provider="Woenel\Itexmo\ItexmoServiceProvider"
 ## Usage
 
 #### Sending a message
+
+Using facade:
 ```
 use Itexmo;
 
@@ -27,7 +29,7 @@ if($res == '0') {
   // Success message or logic. Refer to the return codes below.
 }
 ```
-or
+or by instantiating:
 ```
 use Woenel\Itexmo;
 
@@ -39,7 +41,9 @@ $res = $itexmo->send();
 if($res == '0') {
   // Success message or logic. Refer to the return codes below.
 }
-``` 	
+```
+either way would work.
+
 ## Return codes
 
 * "0" = Success! Message is now on queue and will be sent soon.
