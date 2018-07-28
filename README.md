@@ -27,7 +27,19 @@ if($res == '0') {
   // Success message or logic. Refer to the return codes below.
 }
 ```
+or
+```
+use Woenel\Itexmo;
 
+$itexmo = new Itexmo;
+$itexmo->to('09123456789');
+$itexmo->message('Hello World!');
+$res = $itexmo->send();
+
+if($res == '0') {
+  // Success message or logic. Refer to the return codes below.
+}
+``` 	
 ## Return codes
 
 * "0" = Success! Message is now on queue and will be sent soon.
