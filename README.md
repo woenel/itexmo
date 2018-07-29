@@ -32,7 +32,7 @@ if($res == '0') {
 }
 ```
 
-###### By instantiating
+###### Instantiating class
 ```
 use Woenel\Itexmo;
 
@@ -45,7 +45,7 @@ if($res == '0') {
 }
 ```
 
-###### Instantiating alternative
+###### Instantiating class (alternative)
 ```
 use Woenel\Itexmo;
 
