@@ -52,7 +52,11 @@ use Woenel\Itexmo;
 $itexmo = new Itexmo;
 $itexmo->to('09123456789');
 $itexmo->message('Hello World!');
-$itexmo->send();
+$res = $itexmo->send();
+
+if($res == '0') {
+  // Success message or logic. Refer to the return codes below.
+}
 ```
 Either way should work.
 
