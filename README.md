@@ -45,7 +45,7 @@ if($res == '0') {
 }
 ```
 
-###### 3. Instantiating class (alternative)
+###### 3. Instantiating class (one-by-one)
 ```
 use Woenel\Itexmo;
 
