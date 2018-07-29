@@ -39,7 +39,7 @@ class Itexmo
                 '2' => $this->message,
                 '3' => config('itexmo.api_code')
             ],
-            'verify' => config('itexmo.verify')
+            'verify' => config('itexmo.ssl_verify')
         ];
 
         $res = $this->client->post('https://www.itexmo.com/php_api/api.php', $vars);
