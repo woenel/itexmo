@@ -7,7 +7,7 @@
 
 Install using Composer
 ```
-$ composer require woenel/itexmo "^0.1"
+$ composer require woenel/itexmo "^0.2"
 ```
 
 Publish the config file named `itexmo.php` and set the iTexMo API code.
