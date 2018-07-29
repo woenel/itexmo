@@ -4,11 +4,12 @@ namespace Woenel;
 
 use GuzzleHttp\Client;
 
-class Itexmo {
-
+class Itexmo
+{
     private $client;
     private $to;
     private $message;
+    private $result;
     
     public function __construct()
     {
@@ -41,7 +42,14 @@ class Itexmo {
         ];
 
         $res = $this->client->post('https://www.itexmo.com/php_api/api.php', $vars);
+        
+        $this->result = $res->getBody()->getContents();
 
-        return $res->getBody()->getContents();
+        return $this->result;
+    }
+
+    public function result()
+    {
+        return $this->result;
     }
 }
