@@ -7,9 +7,10 @@ use GuzzleHttp\Client;
 class Itexmo
 {
     private $client;
-    private $to;
-    private $message;
-    private $result;
+    
+    public $to;
+    public $message;
+    public $result;
     
     public function __construct()
     {
@@ -45,11 +46,6 @@ class Itexmo
         
         $this->result = $res->getBody()->getContents();
 
-        return $this->result;
-    }
-
-    public function result()
-    {
         return $this->result;
     }
 }
