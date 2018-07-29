@@ -21,7 +21,7 @@ $ php artisan vendor:publish --provider="Woenel\Itexmo\ItexmoServiceProvider"
 
 These are the three methods you can use to send a message:
 
-###### Using facade
+###### 1. Using facade
 ```
 use Itexmo;
 
@@ -32,7 +32,7 @@ if($res == '0') {
 }
 ```
 
-###### Instantiating class
+###### 2. Instantiating class
 ```
 use Woenel\Itexmo;
 
@@ -45,7 +45,7 @@ if($res == '0') {
 }
 ```
 
-###### Instantiating class (alternative)
+###### 3. Instantiating class (alternative)
 ```
 use Woenel\Itexmo;
 
