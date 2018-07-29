@@ -59,7 +59,7 @@ if($itexmo->result == '0') {
   // Success message or logic. Refer to the return codes below.
 }
 ```
-Either way should work.
+You can choose any of them. Either way should work.
 
 ## Return codes
 
