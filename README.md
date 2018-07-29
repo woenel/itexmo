@@ -17,9 +17,11 @@ $ php artisan vendor:publish --provider="Woenel\Itexmo\ItexmoServiceProvider"
 
 ## Usage
 
-#### Send a Message
+### Send a Message
 
-Using facade:
+#### These are the three methods you can use to send a message:
+
+###### Using facade
 ```
 use Itexmo;
 
@@ -29,7 +31,8 @@ if($res == '0') {
   // Success message or logic. Refer to the return codes below.
 }
 ```
-or by instantiating:
+
+###### By instantiating
 ```
 use Woenel\Itexmo;
 
@@ -41,7 +44,17 @@ if($res == '0') {
   // Success message or logic. Refer to the return codes below.
 }
 ```
-either way would work.
+
+###### Instantiating with better readability:
+```
+use Woenel\Itexmo;
+
+$itexmo = new Itexmo;
+$itexmo->to('09123456789');
+$itexmo->message('Hello World!');
+$itexmo->send();
+```
+###### either way should work.
 
 ## Return codes
 
