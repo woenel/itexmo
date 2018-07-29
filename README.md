@@ -45,7 +45,7 @@ if($res == '0') {
 }
 ```
 
-###### Instantiating with better readability:
+###### Instantiating alternative
 ```
 use Woenel\Itexmo;
 
