@@ -19,7 +19,7 @@ $ php artisan vendor:publish --provider="Woenel\Itexmo\ItexmoServiceProvider"
 
 ### Send a Message
 
-#### These are the three methods you can use to send a message:
+These are the three methods you can use to send a message:
 
 ###### Using facade
 ```
@@ -54,7 +54,7 @@ $itexmo->to('09123456789');
 $itexmo->message('Hello World!');
 $itexmo->send();
 ```
-###### either way should work.
+Either way should work.
 
 ## Return codes
 
