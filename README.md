@@ -50,6 +50,7 @@ if($res == '0') {
 use Woenel\Itexmo;
 
 $itexmo = new Itexmo;
+
 $itexmo->to = '09123456789';
 $itexmo->message = 'Hello World!';
 $itexmo->send();
