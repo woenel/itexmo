@@ -7,7 +7,7 @@
 
 Install using Composer
 ```
-$ composer require woenel/itexmo "^0.1"
+$ composer require woenel/itexmo "^0.3"
 ```
 
 Publish the config file named `itexmo.php` and set the iTexMo API code.
@@ -81,8 +81,8 @@ You can choose any of them. Either way should work.
 ## Features
 #### Implemented features
 - [x] Send a Message
+- [x] Check API Service Status and your SMS Server Status
+- [x] Check ApiCode Info and Status
 #### Planned features
-- [ ] Check API Service Status and your SMS Server Status
-- [ ] Check ApiCode Info and Status
 - [ ] Show Pending or Outgoing SMS
 - [ ] Delete All Pending or Outgoing SMS
