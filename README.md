@@ -81,8 +81,9 @@ You can choose any of them. Either way should work.
 ## Features
 #### Implemented features
 - [x] Send a Message
-- [x] Check API Service Status and your SMS Server Status
-- [x] Check ApiCode Info and Status
+- [x] Check API Service Status and your SMS Server Status (Not in Usage/Documentaion as of the moment, will provide soon)
+- [x] Check ApiCode Info and Status (Not in Usage/Documentaion as of the moment, will provide soon)
 #### Planned features
 - [ ] Show Pending or Outgoing SMS
 - [ ] Delete All Pending or Outgoing SMS
+- [ ] Queue a Message (Send a message by queueng)
