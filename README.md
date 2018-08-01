@@ -86,3 +86,4 @@ You can choose any of them. Either way should work.
 #### Planned features
 - [ ] Show Pending or Outgoing SMS
 - [ ] Delete All Pending or Outgoing SMS
+- [ ] Queue a Message (Send a message by queueng)
