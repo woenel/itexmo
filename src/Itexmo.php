@@ -41,7 +41,7 @@ class Itexmo
                 '2' => $this->message,
                 '3' => config('itexmo.api_code')
             ],
-            'verify' => config('itexmo.verify')
+            'verify' => config('itexmo.ssl_verify')
         ]);
 
         $this->result = $res->getBody()->getContents();
